@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blueprint-base: #060B18;
+  --color-blueprint-panel: #0A1329;
+  --color-blueprint-border: #1E3E7D;
+  --color-cyber-cyan: #06B6D4;
+  --color-urban-green: #10B981;
+  --color-transit-purple: #A78BFA;
+  --color-urban-yellow: #F59E0B;
+  --color-urban-red: #EF4444;
+  --color-planning-orange: #F97316;
+  --color-density-pink: #EC4899;
+  --color-infrastructure-blue: #3B82F6;
+  --color-frost-white: #E5E7EB;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui;
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui;
+  --font-mono: var(--font-ibm-plex-mono), ui-monospace, SFMono-Regular;
+}
+
+body {
+  background-color: #060B18; /* blueprint-base */
+  color: #E5E7EB; /* frost-white */
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Glowing Grid Pattern Background */
+.blueprint-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(6, 182, 212, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 182, 212, 0.05) 1px, transparent 1px);
+}
+
+.blueprint-grid-sub {
+  background-size: 10px 10px;
+  background-image: 
+    linear-gradient(to right, rgba(6, 182, 212, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 182, 212, 0.02) 1px, transparent 1px);
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(10, 19, 41, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(6, 182, 212, 0.15);
+}
+
+.glass-panel-active {
+  border: 1px solid rgba(6, 182, 212, 0.4);
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.25);
+}
+
+/* Scanline CRT Effect for High-Tech feel */
+.scanlines {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanlines::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #060B18;
+}
+::-webkit-scrollbar-thumb {
+  background: #0A1329;
+  border: 1px solid rgba(6, 182, 212, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #06B6D4;
+}
+
+/* Custom Cursor Hide */
+@media (min-width: 768px) {
+  .custom-cursor-area {
+    cursor: none;
+  }
+}

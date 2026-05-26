@@ -1,0 +1,95 @@
+[
+  {
+    "slug": "semarang",
+    "category": "Masterplanning",
+    "themeColor": "text-cyber-cyan",
+    "svgType": "masterplanning",
+    "year": "2025",
+    "translations": {
+      "ID": {
+        "badge": "MASTERPLANNING",
+        "title": "Masterplan Koridor Berkelanjutan Semarang Barat",
+        "sub": "STUDIO PERENCANAAN KOTA 2025",
+        "desc": "Integrasi jalur hijau linear (green spine) sepanjang 12 KM yang menghubungkan pemukiman kepadatan tinggi dengan pusat komersial rendah karbon.",
+        "client": "Dinas Perumahan & Permukiman",
+        "date": "Januari - Juni 2025",
+        "outcome": "Dokumen Masterplan & SHP Spasial",
+        "desc1": "Proyek ini memfokuskan rekonstruksi koridor pinggir kota yang mengabaikan akses pejalan kaki. Melalui survei mobilitas mikro, kami mengidentifikasi kesenjangan parah pada konektivitas jalur pedestrian menuju halte angkutan massal.",
+        "desc2": "Kami mengajukan konsep 'Green Ribbon Infrastructure' di mana jalur hijau tidak diletakkan di tengah median jalan, melainkan di tepian trotoar yang diperluas untuk menyaring limpasan air hujan (rain garden) dan memberikan peneduh alami bagi pejalan kaki."
+      },
+      "EN": {
+        "badge": "MASTERPLANNING",
+        "title": "West Semarang Sustainable Corridor Masterplan",
+        "sub": "URBAN PLANNING STUDIO 2025",
+        "desc": "Integration of a 12 KM linear green spine connecting high-density residential areas with low-carbon commercial zones.",
+        "client": "Housing & Settlement Agency",
+        "date": "January - June 2025",
+        "outcome": "Masterplan Document & Spatial SHP",
+        "desc1": "This project focuses on reconstructing suburban corridors lacking pedestrian access. Through micro-mobility surveys, we identified severe connectivity gaps for pedestrians attempting to reach mass transit hubs.",
+        "desc2": "We proposed the 'Green Ribbon Infrastructure' concept, placing green pathways along widened sidewalk shoulders instead of standard road medians, functioning as rain gardens for runoff filtration and natural canopies."
+      }
+    }
+  },
+  {
+    "slug": "demak",
+    "category": "GIS & Spatial Analysis",
+    "themeColor": "text-urban-green",
+    "svgType": "gis",
+    "year": "2025",
+    "translations": {
+      "ID": {
+        "badge": "GIS & DATA SCIENCE",
+        "title": "Pemetaan Daerah Kerentanan Tanah Longsor Demak",
+        "sub": "STUDI SPASIAL KEBENCANAAN",
+        "desc": "Analisis spasial multikriteria (AHP & GIS) menggunakan parameter kemiringan lereng, curah hujan, tutupan lahan untuk memitigasi bencana musiman.",
+        "client": "Badan Penanggulangan Bencana Daerah",
+        "date": "Agustus - November 2025",
+        "outcome": "Web-Map & Dokumen Kerentanan",
+        "desc1": "Menilai kerentanan lereng pegunungan Demak akibat alih fungsi lahan menjadi perkebunan monokultur semusim. Menggunakan tumpang-susun tertimbang (Analytical Hierarchy Process) pada perangkat ArcGIS Pro.",
+        "desc2": "Melahirkan model zonasi yang melarang pembangunan hunian permanen pada kemiringan lereng di atas 40%. Mengusulkan reboisasi berbasis agroforestri tanaman akar wangi guna menahan struktur tanah rawan jenuh air."
+      },
+      "EN": {
+        "badge": "GIS & DATA SCIENCE",
+        "title": "Landslide Vulnerability Mapping in Demak",
+        "sub": "SPATIAL DISASTER STUDY",
+        "desc": "Multi-criteria spatial analysis (AHP & GIS) factoring slope incline, precipitation levels, and land cover to mitigate seasonal disasters.",
+        "client": "Regional Disaster Management Board",
+        "date": "August - November 2025",
+        "outcome": "Web-Map & Vulnerability Report",
+        "desc1": "Assessed mountain slope vulnerabilities in Demak caused by land conversion into seasonal monoculture farms, leveraging Weighted Linear Combination (AHP) in ArcGIS Pro.",
+        "desc2": "Developed zoning models prohibiting permanent housing on slopes exceeding 40%. Proposed root-based agroforestry reforestation to bind water-saturated soil structures."
+      }
+    }
+  },
+  {
+    "slug": "pekalongan",
+    "category": "Sirkulasi & TOD",
+    "themeColor": "text-urban-yellow",
+    "svgType": "transportation",
+    "year": "2025",
+    "translations": {
+      "ID": {
+        "badge": "SISTEM TRANSPORTASI",
+        "title": "Optimasi Rute Angkutan Umum Feeder Pekalongan",
+        "sub": "STUDIO TRANSPORTASI MAKRO",
+        "desc": "Simulasi pola asal-tujuan (origin-destination mapping) untuk mendesain jaringan sirkulasi angkutan kota yang melayani daerah blank spot pelayanan.",
+        "client": "Dinas Perhubungan Kota Pekalongan",
+        "date": "Oktober - Desember 2025",
+        "outcome": "Pola Rute Operasi Baru",
+        "desc1": "Analisis kemacetan pada persimpangan pusat pemerintahan akibat tidak optimalnya cakupan angkutan pengumpan. Sistem sebelumnya tumpang tindih dengan trayek utama sehingga memicu konflik tarif.",
+        "desc2": "Merancang kembali 4 rute feeder alternatif terintegrasi stasiun kereta utama, mengurangi tumpang tindih trayek hingga 65% dan menjangkau kembali area pelayanan perumahan terisolir di wilayah lingkar luar."
+      },
+      "EN": {
+        "badge": "TRANSPORTATION SYSTEMS",
+        "title": "Pekalongan Transit Feeder Route Optimization",
+        "sub": "MACRO TRANSPORTATION STUDIO",
+        "desc": "Origin-destination mapping simulation to design urban feeder networks serving previous service blank spots.",
+        "client": "Pekalongan Department of Transportation",
+        "date": "October - December 2025",
+        "outcome": "New Route Operating System",
+        "desc1": "Analyzed intersection gridlocks near local civic centers caused by suboptimal feeder bus coverage. The legacy routing overlapped heavily with main transit corridors, creating fare conflicts.",
+        "desc2": "Redesigned 4 alternative feeder routes integrated directly with the primary train hub, reducing routing overlap by 65% and reconnecting isolated housing estates."
+      }
+    }
+  }
+]
